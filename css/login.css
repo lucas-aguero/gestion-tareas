@@ -1,0 +1,63 @@
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                box-sizing: border-box;;
+            }
+            body{
+                background: wheat;
+                color:brown;
+                display: flex;
+                min-height:  100vh;
+            }
+
+            form{
+                margin: auto;
+                width: 50%;
+                max-width: 500px;
+                background: cornsilk;
+                padding: 30px;
+                border: 1px solid rgba(165,42,42,0.2);
+            }
+            h2 {
+                text-align: center;
+                margin-bottom: 20px;
+                color:rgba(165,42,42,0.5);
+                font-size: 25px;
+            }
+            input {
+                display: block;
+                padding:5px;
+                width:100%;
+                margin: 20px 0;
+                font-size:20px;
+            }
+           input[type="submit"] {
+                background: linear-gradient(#DEB887,#FFE4C4);
+                border: 0;
+                color:brown;
+                opacity: 0.8;
+                cursor: pointer;
+                border-radius: 20px;
+                margin-bottom: 0;
+            }           
+            input[type="submit"]:hover {
+                opacity: 1;
+            }
+            .btn_registrarse {
+                background: linear-gradient(#DEB887,#FFE4C4);
+                border: 0;
+                color:brown;
+                opacity: 0.7;
+                cursor: pointer;
+                border-radius: 20px;
+                margin-bottom:10px ;  
+                /* display: block; */
+                padding: 5px;
+                width: 100%;
+                margin: 20px 0;
+                font-size:15px;                              
+            }
+            .btn_registrarse:hover {
+                opacity: 1;
+            }
